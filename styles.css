@@ -1,0 +1,24 @@
+/* Layout for image and metadata */
+#imageOutput {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.card-view {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+}
+
+.card-view img {
+  width: 100%;
+  height: auto;
+}
+
+.img-metadata {
+  font-size: 0.9em;
+  color: #555;
+}

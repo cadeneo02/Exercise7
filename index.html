@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Flickr API Explorer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Image Explorer</h1>
+
+  <div id="controls">
+    <input type="text" id="searchInput" placeholder="Search tags (e.g., cannes, france)">
+    <button id="searchImagesBtn">Search</button>
+  </div>
+
+  <div id="pagination">
+    <button id="firstPageBtn">First</button>
+    <button id="prevPageBtn">Previous</button>
+    <input type="text" id="pageSelector" placeholder="Page #" />
+    <button id="nextPageBtn">Next</button>
+    <button id="lastPageBtn">Last</button>
+  </div>
+
+  <div id="imageOutput"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
